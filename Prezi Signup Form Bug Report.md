@@ -43,9 +43,9 @@ The second method is to get rid of the special formatting for the first and last
 ```
 
 2) social signup
-- remove: .well .btn { width: 238px; } // solves the problem, as buttons will not protrude outside of containing element
-- remove: .btn { height: 26px; } // allows the button to include two lines of text when text button is wrapped
-- add: .well .btn { display: block; } // otherwise buttons will be positioned next to each other in mobile view
+- remove: `.well .btn { width: 238px; }` // solves the problem, as buttons will not protrude outside of containing element
+- remove: `.btn { height: 26px; }` // allows the button to include two lines of text when text button is wrapped
+- add: `.well .btn { display: block; }` // otherwise buttons will be positioned next to each other in mobile view
 
 Hope this helps.
 
