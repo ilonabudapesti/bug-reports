@@ -6,9 +6,9 @@ Since the signup form is the first true interaction with the Prezi brand, I beli
 
 The [signup page](https://prezi.com/profile/registration/?license_type=PUBLIC) for Prezi has some alignment issues when resizing the browser window. The First and Last name fields are misaligned between the full width and mobile width. The 'Signup with LinkedIn' and 'Signup with Facebook' buttons do not resize correctly with their containing box and therefore stick out between full width and mobile width.
 
-![Screen shot of Prezi signup form bug](https://github.com/monthypython/bug-reports/blob/master/Prezi_SignupPage_Bug.jpg)
+![Screen shot of Prezi signup form bug](https://github.com/monthypython/bug-reports/master/Prezi_SignupPage_Bug.jpg)
 
-![Screen shot of Prezi signup form bug](https://github.com/monthypython/bug-reports/blob/master/Prezi_SignupPage_Bug2.jpg)
+![Screen shot of Prezi signup form bug](https://github.com/monthypython/bug-reports/master/Prezi_SignupPage_Bug2.jpg)
 
 #Screen casts
 
