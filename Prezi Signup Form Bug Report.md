@@ -10,13 +10,13 @@ The **[signup page](https://prezi.com/profile/registration/?license_type=PUBLIC)
 
 ![Screen shot of Prezi signup form bug](Prezi_SignupPage_Bug2.jpg)
 
-#Screen casts
+#Screen cast
 
 ###Scenario 1: on Chrome 34 and Firefox 29
 http://youtu.be/JQraY4xBh20
 
 ###Scenario 2: on IE 8
-Not responsive at all.
+Decided not to record screen cast as the whole page is not responsive to changing browser width.
 
 #Recommended solution
 
@@ -30,11 +30,15 @@ The second method is to get rid of the special formatting for the first and last
 
 ```html
 <li class="control-group">
-	<input name="first_name" type="text" placeholder="First name" class="input-large span8 textfield" id="id_first_name">
+	<input name="first_name" type="text" 
+	placeholder="First name" class="input-large span8 textfield" 
+	id="id_first_name">
 </li>
 
 <li class="control-group">
-	<input name="last_name" type="text" placeholder="Last name" class="input-large span8 textfield" id="id_last_name">
+	<input name="last_name" type="text" 
+	placeholder="Last name" class="input-large span8 textfield" 
+	id="id_last_name">
 </li>
 ```
 
