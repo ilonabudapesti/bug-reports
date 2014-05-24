@@ -4,7 +4,7 @@ Prezi Signup Form Bug Report.md
 
 Since the signup form is the first true interaction with the Prezi brand, I believe this small CSS/HTML bug would be worthwhile to fix. It is a low-cost high-reward bugfix.
 
-The [signup page](https://prezi.com/profile/registration/?license_type=PUBLIC) for Prezi has some alignment issues when resizing the browser window. The First and Last name fields are misaligned between the full width and mobile width. The 'Signup with LinkedIn' and 'Signup with Facebook' buttons do not resize correctly with their containing box and therefore stick out between full width and mobile width.
+The **[signup page](https://prezi.com/profile/registration/?license_type=PUBLIC) for Prezi** has some alignment issues when resizing the browser window. The First and Last name fields are misaligned between the full width and mobile width. The 'Signup with LinkedIn' and 'Signup with Facebook' buttons do not resize correctly with their containing box and therefore stick out between full width and mobile width.
 
 ![Screen shot of Prezi signup form bug](https://github.com/monthypython/bug-reports/Prezi_SignupPage_Bug.jpg)
 
@@ -31,7 +31,8 @@ The second method is to get rid of the special formatting for the first and last
 ```html
 <li class="control-group">
 	<input name="first_name" type="text" placeholder="First name" class="input-large span8 textfield" id="id_first_name">
- </li>
+</li>
+
 <li class="control-group">
 	<input name="last_name" type="text" placeholder="Last name" class="input-large span8 textfield" id="id_last_name">
 </li>
